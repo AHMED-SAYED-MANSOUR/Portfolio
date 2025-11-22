@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "id": "pgpara",
+      "name": "PGPara Gateway",
+      "createdAt": "2023-07-01T00:00:00Z",
+      "url": "https://github.com/AHMED-SAYED-MANSOUR/Pgpara-PaymentGetway",
+      "description": "Standalone Laravel payment gateway inspired by PayPal/Stripe with secure auth, bank API integrations, and end-to-end transaction management.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Laravel",
+          "iconifyClass": "simple-icons:laravel"
+        },
+        {
+          "name": "PHP",
+          "iconifyClass": "simple-icons:php"
+        },
+        {
+          "name": "SQL",
+          "iconifyClass": "simple-icons:mysql"
+        },
+        {
+          "name": "HTML5",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS3",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
+    },
+    {
+      "id": "pick-me",
+      "name": "Pick Me Library",
+      "createdAt": "2022-02-01T00:00:00Z",
+      "url": "https://github.com/AHMED-SAYED-MANSOUR/library",
+      "description": "C# desktop library system that categorizes books, labels inventory automatically, and supports user borrowing plus full admin controls.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "C#",
+          "iconifyClass": "simple-icons:csharp"
+        },
+        {
+          "name": "SQL Server",
+          "iconifyClass": "simple-icons:microsoftsqlserver"
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-platform",
+      "name": "Online E-Commerce Platform",
+      "createdAt": "2023-05-01T00:00:00Z",
+      "url": "https://github.com/AHMED-SAYED-MANSOUR",
+      "description": "React & Node.js store with category filters, price ranges, cart management, mock payments, and an admin console for product and fulfillment ops.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "simple-icons:react"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "simple-icons:nodedotjs"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "SQL",
+          "iconifyClass": "simple-icons:mysql"
+        }
+      ]
+    },
+    {
+      "id": "physiotherapy",
+      "name": "Physiotherapy Clinic Suite",
+      "createdAt": "2024-03-01T00:00:00Z",
+      "url": "https://github.com/hady-asaker/EhgzEstshara",
+      "description": "Clinic management system covering appointments, offers, storefront items, and analytics dashboards built with Laravel and modular JS widgets.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Laravel",
+          "iconifyClass": "simple-icons:laravel"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "CSS3",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "SQL",
+          "iconifyClass": "simple-icons:mysql"
+        }
+      ]
+    }
+  ]
+}

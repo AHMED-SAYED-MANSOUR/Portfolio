@@ -1,0 +1,127 @@
+.home-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.home-content {
+  animation: slideInFromCorners 0.8s ease-out;
+}
+
+@keyframes slideInFromCorners {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Individual section animations from corners */
+.home-container .header-section {
+  animation: slideFromTopLeft 0.6s ease-out 0.2s both;
+}
+
+.home-container .greeting-section {
+  animation: slideFromTopRight 0.6s ease-out 0.3s both;
+}
+
+.home-container .skills-section {
+  animation: slideFromBottomLeft 0.6s ease-out 0.4s both;
+}
+
+.home-container .footer-section {
+  animation: slideFromBottomRight 0.6s ease-out 0.5s both;
+}
+
+@keyframes slideFromTopLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-100px, -100px) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes slideFromTopRight {
+  0% {
+    opacity: 0;
+    transform: translate(100px, -100px) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes slideFromBottomLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-100px, 100px) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes slideFromBottomRight {
+  0% {
+    opacity: 0;
+    transform: translate(100px, 100px) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  @keyframes slideFromTopLeft {
+    0% {
+      opacity: 0;
+      transform: translate(-50px, -50px) scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0, 0) scale(1);
+    }
+  }
+
+  @keyframes slideFromTopRight {
+    0% {
+      opacity: 0;
+      transform: translate(50px, -50px) scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0, 0) scale(1);
+    }
+  }
+
+  @keyframes slideFromBottomLeft {
+    0% {
+      opacity: 0;
+      transform: translate(-50px, 50px) scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0, 0) scale(1);
+    }
+  }
+
+  @keyframes slideFromBottomRight {
+    0% {
+      opacity: 0;
+      transform: translate(50px, 50px) scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0, 0) scale(1);
+    }
+  }
+}
+

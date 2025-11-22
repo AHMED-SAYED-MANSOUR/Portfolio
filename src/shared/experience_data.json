@@ -1,0 +1,58 @@
+{
+	"title": "Experience",
+	"subtitle": "Work & Leadership",
+	"description": "Full-stack builder and instructor focused on scalable software, modern UI systems, and practical mentorship.",
+	"header_image_path": "experience.svg",
+	"sections": [
+		{
+			"title": "Work",
+			"experiences": [
+				{
+					"title": "Full-Stack Developer",
+					"company": "Code Clause",
+					"company_url": "#",
+					"logo_path": "codeInLogo.png",
+					"duration": "July 2023",
+					"location": "Remote",
+					"description": "Delivered React.js and Laravel applications, optimized APIs, and improved UI responsiveness leading to a 30% engagement lift.",
+					"color": "#E94A47"
+				},
+				{
+					"title": "Software Engineer Intern",
+					"company": "Roya Company",
+					"company_url": "#",
+					"logo_path": "muffito_logo.png",
+					"duration": "September 2022",
+					"location": "Cairo, Egypt",
+					"description": "Enhanced backend performance, executed testing plans, and debugged legacy modules to stabilize production systems.",
+					"color": "#1C6DD0"
+				}
+			]
+		},
+		{
+			"title": "Leadership & Teaching",
+			"experiences": [
+				{
+					"title": "Web Instructor",
+					"company": "SCCI-CU Student Activity",
+					"company_url": "#",
+					"logo_path": "dsc_logo.png",
+					"duration": "January 2023",
+					"location": "Cairo, Egypt",
+					"description": "Led HTML, CSS, and JavaScript bootcamps for 50+ students with project-based curricula and improved completion rates.",
+					"color": "#0C9D58"
+				},
+				{
+					"title": "Mobile App Instructor",
+					"company": "MSP-CU Student Activity",
+					"company_url": "#",
+					"logo_path": "mozilla_logo.png",
+					"duration": "February 2022",
+					"location": "Cairo, Egypt",
+					"description": "Ran Android Studio workshops and mentored developers through building and deploying their first mobile apps.",
+					"color": "#F38B00"
+				}
+			]
+		}
+	]
+}

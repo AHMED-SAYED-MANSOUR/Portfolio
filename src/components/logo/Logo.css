@@ -1,0 +1,79 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-svg {
+  width: clamp(180px, 20vw, 280px);
+  height: auto;
+  display: block;
+  transition: transform 0.35s ease, filter 0.35s ease;
+  filter: drop-shadow(0 8px 18px rgba(17, 24, 39, 0.12));
+}
+
+.logo-container:hover .logo-svg {
+  transform: translateY(-3px) scale(1.01);
+  filter: drop-shadow(0 10px 24px rgba(17, 24, 39, 0.18));
+}
+
+.logo-svg--animated {
+  animation: logoPulse 2.6s ease-in-out infinite;
+}
+
+.logo-svg--loader {
+  width: clamp(240px, 32vw, 420px);
+}
+
+.header .logo-container .logo-svg {
+  width: clamp(150px, 18vw, 220px);
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.18));
+}
+
+.loading-logo-container .logo-svg {
+  width: clamp(240px, 35vw, 420px);
+}
+
+@keyframes logoPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    filter: drop-shadow(0 8px 18px rgba(17, 24, 39, 0.12));
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.96;
+    filter: drop-shadow(0 14px 28px rgba(0, 128, 181, 0.28));
+  }
+}
+
+@keyframes logoSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px) scale(0.7) rotate(-6deg);
+  }
+  60% {
+    transform: translateY(6px) scale(1.05) rotate(2deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+.loading-logo-container {
+  animation: logoSlideIn 1.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .header .logo-container .logo-svg {
+    width: clamp(130px, 28vw, 190px);
+  }
+
+  .loading-logo-container .logo-svg {
+    width: clamp(200px, 55vw, 360px);
+  }
+}
+
